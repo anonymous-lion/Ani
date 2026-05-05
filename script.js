@@ -16,7 +16,7 @@ const canvas = document.getElementById("confettiCanvas");
 const ctx = canvas.getContext("2d");
 
 const birthdayConfig = {
-  name: "Anu",
+  name: "Ani",
   month: 4,
   day: 06
 };
