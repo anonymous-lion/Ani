@@ -17,8 +17,8 @@ const ctx = canvas.getContext("2d");
 
 const birthdayConfig = {
   name: "Anu",
-  month: 3,
-  day: 28
+  month: 4,
+  day: 06
 };
 
 const surpriseNotes = [
