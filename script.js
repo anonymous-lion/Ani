@@ -24,19 +24,19 @@ const birthdayConfig = {
 const surpriseNotes = [
   {
     title: "Birthday boy, this one is yours",
-    message: "Hope your year is packed with big wins, fearless moves, full-volume laughter, and memories that get retold forever."
+    message: "Your year is packed with big wins, fearless moves, full-volume laughter, and memories that get retold forever."
   },
   {
     title: "Go bigger this year",
-    message: "Take the shot, chase the wild idea, trust your instincts, and let this year feel louder, stronger, and better than the last one."
+    message: "Take the shot, chase the wild idea, trust your instincts, and let this year feel louder, stronger, and better than the last one. We definitely got to have a trip somewhere together."
   },
   {
     title: "Stay sharp and stay legendary",
-    message: "Keep the brave heart, the strong mind, and the fire that makes you impossible to ignore when you decide to go all in."
+    message: "Keep the brave heart, the strong mind, and the fire that makes you impossible to ignore when you decide to go all in. And keep inspiring likee you always do... Srsly"
   },
   {
-    title: "A wish worth keeping",
-    message: "May this next chapter bring you confidence, adventure, loyal people, and the kind of success that feels just as good as you imagined it would."
+    title: "My message",
+    message: "Yoooooo big boy huhhh!! I'm older so respect me anyway... I still remember you being the cool one with one drop of sanitizer for everyone during lunch break guy in 7th LOLLL... looking back I never thought you would be such a golden friend to me... Like seriously man, thank you for existinggg.... YOU ARE MY BEST FRIEND!!! and we will grow old together... I'm sooo looking forward to meet you and making more moments roasting each other."
   }
 ];
 
