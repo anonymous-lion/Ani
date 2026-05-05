@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Anu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <p class="eyebrow">For the birthday boy</p>
+      <h1>Happy Birthday, Anu</h1>
+      <p class="hero-copy">
+        Wishing you a year full of bold moves, big wins, loud laughs, great memories, and zero boring moments.
+      </p>
+      <div class="hero-actions">
+        <button class="primary-button" id="celebrateBtn" type="button">Start the Celebration</button>
+        <button class="secondary-button" id="messageBtn" type="button">Open the Birthday Wish</button>
+      </div>
+      <div class="countdown-card">
+        <p class="countdown-label" id="countdownLabel">Countdown to next birthday</p>
+        <div class="countdown" id="countdown">
+          <div><span id="days">00</span><small>Days</small></div>
+          <div><span id="hours">00</span><small>Hours</small></div>
+          <div><span id="minutes">00</span><small>Minutes</small></div>
+          <div><span id="seconds">00</span><small>Seconds</small></div>
+        </div>
+      </div>
+    </header>
+
+    <main id="birthdayContent" hidden>
+      <section class="moment-grid">
+        <article class="moment-card glow-card">
+          <h2>Birthday Boy Mode</h2>
+          <p>This day is all about your favorite people, strong energy, good food, and doing whatever makes you feel unstoppable.</p>
+        </article>
+        <article class="moment-card">
+          <h2>Big Energy Only</h2>
+          <p>More fun, more laughter, more confidence, and a little main-character energy from the minute the day starts.</p>
+        </article>
+        <article class="moment-card accent-card">
+          <h2>This Year's Wins</h2>
+          <ul>
+            <li>Epic adventures</li>
+            <li>Goals crushed one by one</li>
+            <li>Late nights that become great stories</li>
+            <li>Real ones who always have your back</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="celebration-strip">
+        <div class="cake-spot">
+          <div class="cake">
+            <div class="candles">
+              <span class="candle"><i class="flame"></i></span>
+              <span class="candle"><i class="flame"></i></span>
+              <span class="candle"><i class="flame"></i></span>
+            </div>
+            <div class="cake-top"></div>
+            <div class="cake-body"></div>
+            <div class="cake-base"></div>
+          </div>
+        </div>
+        <div class="message-panel">
+          <p class="panel-label">Birthday wish</p>
+          <h2 id="surpriseTitle">To the birthday boy</h2>
+          <p id="surpriseMessage">
+            Hope this year brings you courage, confidence, adventure, and the kind of memories that never get old.
+          </p>
+        </div>
+      </section>
+
+      <section class="memory-board">
+        <div class="board-heading">
+          <p class="panel-label">Birthday checklist</p>
+          <h2>Three things this year should have more of</h2>
+        </div>
+        <div class="board-items">
+          <article>
+            <span>01</span>
+            <h3>Adventure</h3>
+            <p>More plans that turn into stories, more places to go, and more moments worth replaying.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Confidence</h3>
+            <p>The kind that lets you take your shot, trust your instincts, and move like you mean it.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Big Wins</h3>
+            <p>Not just luck, but real progress, proud moments, and goals that feel great when you hit them.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="floating-balloons" aria-label="Floating birthday balloons">
+    <button class="balloon" type="button" aria-label="Pop balloon 1"></button>
+    <button class="balloon" type="button" aria-label="Pop balloon 2"></button>
+    <button class="balloon" type="button" aria-label="Pop balloon 3"></button>
+    <button class="balloon" type="button" aria-label="Pop balloon 4"></button>
+    <button class="balloon" type="button" aria-label="Pop balloon 5"></button>
+  </div>
+
+  <canvas id="confettiCanvas" aria-hidden="true"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
